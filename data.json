@@ -1,0 +1,247 @@
+{
+  "categories": [
+    {
+      "id": "smoking",
+      "title": "Smoking",
+      "image": "https://res.cloudinary.com/dbp2wnqco/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1710643825/hackathon/smoking_bkbnfr.jpg?_s=public-apps",
+      "subtitle": "Smoking cigarettes is a harmful habit with profound and long-term health consequences. Prolonged exposure to tobacco smoke can lead to serious illnesses, including lung cancer, chronic lung diseases such as chronic obstructive pulmonary disease (COPD), heart diseases like coronary artery disease, and stroke. Additionally, smoking can weaken the immune system, increase the risk of infections, and damage organs such as the kidneys and liver."
+    },
+    {
+      "id": "obese",
+      "title": "Obese",
+      "image": "https://res.cloudinary.com/dbp2wnqco/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1710643825/hackathon/obese_s7hk2z.jpg?_s=public-apps",
+      "subtitle": "Weight loss requires a balanced approach that includes healthy eating and regular physical activity. Rapid diets or extreme weight loss methods can result in loss of water and muscle mass instead of fat, which can have negative long-term effects on health. It's important to focus on maintaining healthy habits that support long-term sustainable weight loss, taking into account individual needs and goals."
+    },
+
+    {
+      "id": "gambling",
+      "title": "Gambling",
+      "image": "https://res.cloudinary.com/dbp2wnqco/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1710643825/hackathon/gambling_hydzyr.jpg?_s=public-apps",
+      "subtitle": "Gambling can be a challenging activity that, when taken to excess, can have serious consequences. In addition to financial problems that may arise from losing money, excessive gambling can also lead to strained relationships with family and friends and result in various mental health issues such as stress, anxiety, and depression. Gambling can become an addictive behavior that is difficult to control, further complicating the situation. It's important to understand the risks associated with gambling and seek help if it's noticed to have a negative impact on life and well-being."
+    },
+    {
+      "id": "alkoholic",
+      "title": "Alkoholic",
+      "image": "https://res.cloudinary.com/dbp2wnqco/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1710643825/hackathon/alkoholic_pledcg.jpg?_s=public-apps",
+      "subtitle": "Alcohol consumption can have significant effects on both physical and mental health. Excessive drinking can lead to liver disease, cardiovascular problems, and an increased risk of various cancers. Additionally, alcohol abuse can negatively impact relationships, work performance, and overall quality of life. It's crucial to drink alcohol responsibly, recognizing limits and seeking support if alcohol consumption begins to interfere with daily functioning or relationships."
+    }
+  ],
+  "users": [
+    {
+      "uid": "user_2cgCT6uyVwnpxY7tBTsxzTxgJmPRT",
+      "full_name": "James Smith",
+      "image": "https://thumbs.dreamstime.com/b/obese-man-4891605.jpg",
+      "email": "jamessmith@gmial.com",
+      "age": 24,
+      "gender": "male",
+      "location": "London",
+      "bad_habbits": ["obese", "gambling"],
+      "matchings": [
+        {
+          "habbit": "obese",
+          "user": "user_2cgCT6uyVwnpxY7tBTsxzTxgJmPRD"
+        },
+        {
+          "habbit": "gambling",
+          "user": "user_2cgCT6uyVwnpxY7tBTsxzTxgJmPRG"
+        },
+        {
+          "habbit": "alkoholic",
+          "user": "user_2cgCT6uyVwnpxY7tBTsxzTxgJmPRC"
+        }
+      ]
+    },
+    {
+      "uid": "user_2cgCT6uyVwnpxY7tBTsxzTxgJmPRE",
+      "full_name": "Milos Jolovic",
+      "image": "https://res.cloudinary.com/dbp2wnqco/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1710644176/hackathon/IMG_4079_aij60l.jpg?_s=public-apps",
+      "email": "milosjolovic@gmail.com",
+      "age": 22,
+      "gender": "male",
+      "location": "domski kafić",
+      "bad_habbits": ["smoking"],
+      "matchings": [
+        {
+          "habbit": "smoking",
+          "user": "user_2cgCT6uyVwnpxY7tBTsxzTxgJmPRG"
+        }
+      ]
+    },
+    {
+      "uid": "user_2cgCT6uyVwnpxY7tBTsxzTxgJmPRC",
+      "full_name": "Dragana Kragulj",
+      "image": "https://res.cloudinary.com/dbp2wnqco/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1710644438/hackathon/747CC998-9C5C-43DE-8CBB-B6DFAFE2C2F1_jvw9je.jpg?_s=public-apps",
+      "email": "draganakragulj@fon.bg.ac.rs",
+      "age": 69,
+      "gender": "female",
+      "location": "Fon",
+      "bad_habbits": ["alkoholic"],
+      "matchings": [
+        {
+          "habbit": "alkoholic",
+          "user": "user_2cgCT6uyVwnpxY7tBTsxzTxgJmPRT"
+        },
+        {
+          "habbit": "alkoholic",
+          "user": "user_2cgCT6uyVwnpxY7tBTsxzTxgJmPRD"
+        }
+      ]
+    },
+    {
+      "uid": "user_2cgCT6uyVwnpxY7tBTsxzTxgJmPRD",
+      "full_name": "Djani",
+      "image": "https://toxictv.rs/wp-content/uploads/2021/08/noc_18062021_0026-e1629123786877.jpg",
+      "email": "dekisimic@gmail.com",
+      "age": 56,
+      "gender": "male",
+      "location": "kafana",
+      "bad_habbits": ["alkoholic", "obese"],
+      "matchings": [
+        {
+          "habbit": "obese",
+          "user": "user_2cgCT6uyVwnpxY7tBTsxzTxgJmPRT"
+        },
+        {
+          "habbit": "alkoholic",
+          "user": "user_2cgCT6uyVwnpxY7tBTsxzTxgJmPRC"
+        },
+        {
+          "habbit": "alkoholic",
+          "user": "user_2cgCT6uyVwnpxY7tBTsxzTxgJmSRG"
+        }
+      ]
+    },
+    {
+      "uid": "user_2cgCT6uyVwnpxY7tBTsxzTxgJmPRG",
+      "full_name": "Aca Lukas",
+      "image": "https://toxictv.rs/wp-content/uploads/2021/05/147895722_230120522087889_4740524996644022095_n-1-1.jpg",
+      "email": "acalukas@gmail.com",
+      "age": 55,
+      "gender": "male",
+      "location": "kazino",
+      "bad_habbits": ["gambling"],
+      "matchings": [
+        {
+          "habbit": "gambling",
+          "user": "user_2cgCT6uyVwnpxY7tBTsxzTxgJmPRT"
+        },
+        {
+          "habbit": "smoking",
+          "user": "user_2cgCT6uyVwnpxY7tBTsxzTxgJmPRE"
+        }
+      ]
+    },
+    {
+      "uid": "user_2cgCT6uyVwnpxY7tBTsxzTxgJmSRG",
+      "full_name": "Jelena Karleuša",
+      "image": "https://toxictv.rs/wp-content/uploads/2022/11/Jelena-Karleusa-foto-Instagram.jpg",
+      "email": "karleusac@gmail.com",
+      "age": 50,
+      "gender": "female",
+      "location": "Beograd",
+      "bad_habbits": ["alkoholic"],
+      "matchings": [
+        {
+          "habbit": "alkoholic",
+          "user": "user_2cgCT6uyVwnpxY7tBTsxzTxgJmPRD"
+        }
+      ]
+    },
+    {
+      "uid": "user_2cgCT6uyVwnpxY7tBTsxzTxgJmNRG",
+      "full_name": "Žeks Spasenić",
+      "image": "https://res.cloudinary.com/dbp2wnqco/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1710644679/hackathon/E734A2D6-9FD2-4681-8338-799B565F255F_lgtji2.jpg?_s=public-apps",
+      "email": "zeksspasenic@gmail.com",
+      "age": 36,
+      "gender": "male",
+      "location": "Postanska stedionica",
+      "bad_habbits": ["gambling"],
+      "matchings": [
+        {
+          "habbit": "gambling",
+          "user": "user_2cgCT6uyVwnpxY7tBTsxzTxgJmMRG"
+        }
+      ]
+    },
+    {
+      "uid": "user_2cgCT6uyVwnpxY7tBTsxzTxgJmMRG",
+      "full_name": "Stefan Komazec",
+      "image": "https://res.cloudinary.com/dbp2wnqco/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1710644839/hackathon/2DC0264F-57A6-45F2-8256-A26ACADA6CDD_hd1l5g.jpg?_s=public-apps",
+      "email": "komazec@gmail.com",
+      "age": 30,
+      "gender": "male",
+      "location": "Fon",
+      "bad_habbits": ["gambling"],
+      "matchings": [
+        {
+          "habbit": "gambling",
+          "user": "user_2cgCT6uyVwnpxY7tBTsxzTxgJmNRG"
+        }
+      ]
+    },
+    {
+      "uid": "user_2cgCT6uyVwnpxY7tBTsxzTxgJOMRG",
+      "full_name": "Dragomir Despić",
+      "image": "https://hypetv.rs/wp-content/uploads/2023/10/2023-10-29_14-34-02.jpg",
+      "email": "desingerica@gmail.com",
+      "age": 34,
+      "gender": "male",
+      "location": "Beograd",
+      "bad_habbits": ["smoking"],
+      "matchings": [
+        {
+          "habbit": "smoking",
+          "user": "user_2cgCT6uyVwnpxY7tBTsxzTxgJOMRp"
+        }
+      ]
+    },
+    {
+      "uid": "user_2cgCT6uyVwnpxY7tBTsxzTxgJOMRp",
+      "full_name": "Dusan Kostić",
+      "image": "https://res.cloudinary.com/dbp2wnqco/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1710644935/hackathon/D2564DC0-AFF5-4B0F-A7A0-0B2AB3F2B34A_fjy5hq.jpg?_s=public-apps",
+      "email": "dusankostic@gmail.com",
+      "age": 22,
+      "gender": "male",
+      "location": "Fon",
+      "bad_habbits": ["smoking"],
+      "matchings": [
+        {
+          "habbit": "smoking",
+          "user": "user_2cgCT6uyVwnpxY7tBTsxzTxgJOMRG"
+        }
+      ]
+    },
+    {
+      "uid": "user_2cgCT6uyVwnpxY7tBTsxzTxgJOMRr",
+      "full_name": "Dragan Bjelica",
+      "image": "https://i1.rgstatic.net/ii/profile.image/278770167631877-1443475395416_Q512/Dragan-Bjelica.jpg",
+      "email": "draganbjelica@gmail.com",
+      "age": 40,
+      "gender": "male",
+      "location": "Fon",
+      "bad_habbits": ["obese"],
+      "matchings": [
+        {
+          "habbit": "obese",
+          "user": "user_2cgCT6uyVwnpxY7tBTsxzTxgJOMty"
+        }
+      ]
+    },
+    {
+      "uid": "user_2cgCT6uyVwnpxY7tBTsxzTxgJOMty",
+      "full_name": "Elena Jones",
+      "image": "https://res.cloudinary.com/dbp2wnqco/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1710645008/hackathon/IMG_4078_rzyi4m.jpg?_s=public-apps",
+      "email": "elenajones@gmail.com",
+      "age": 28,
+      "gender": "female",
+      "location": "London",
+      "bad_habbits": ["obese"],
+      "matchings": [
+        {
+          "habbit": "obese",
+          "user": "user_2cgCT6uyVwnpxY7tBTsxzTxgJOMRr"
+        }
+      ]
+    }
+  ]
+}
